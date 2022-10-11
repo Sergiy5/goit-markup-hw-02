@@ -1,164 +1,25 @@
 
-/* Решта коду */
 body {
     font-family: 'Roboto', 'Raleway';
-    background-color: #FFFFFF;
+    background-color: ##F5F5F5;
     color: #000000
 }
-.main-body {
-    position: relative;
-    margin-left: 100px;
-    width: 1600px;
-    height: 2346px;
-    background: #FFFFFF;
-    outline: 2px solid tomato;
-}
-.top-line {
+
+.logo{
     position: absolute;
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
-    outline: 2px solid tomato;
-}
-.logo {
-    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1, 19;
     letter-spacing: 0.03em;
     text-decoration: none;
-    margin-left: 215px;
-    margin-top: 24px;
     color: #000000;
-    outline: 2px solid tomato;
 }
-.half-logo {
+.half-logo{
     color: #2196F3;
-}
-.navigation {
-    position: absolute;
-    padding-left: 0;
-    margin-left: 453px;
-    margin-top: 32px;
-    outline: 2px solid green;
-}
-.navigation li {
-    font-style: normal;
-    display: inline;
-    padding: 0px, 0px;
-}
-
-.navigation a {
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1,14;
-    letter-spacing: 0.02em;
-    color: #000;
-}
-.navigation .level-1 {
-    padding: 0px;
-}
-.navigation .level-1:hover {
-    color: #2196F3;
-}
-.level-2, .level-3 {
-    margin-left: 50px;
-}
-
-.link-mail {
-    position: absolute;
-    font-weight: 500;
-    font-size: 14px;
-    height: 1,14;
-    letter-spacing: 0.02em;
-    margin-left: 1078px;
-    margin-top: 32px;
-    text-decoration: none;
-    color: #000;
-    outline: 2px solid tomato;
-}
-.link-mail:hover {
-    color: #2196F3;
-}
-.phone {
-    position: absolute;
-    width: 122px;
-    height: 16px;
-    margin-left: 1263px;
-    margin-top: 32px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: #757575;
-    outline: 2px solid tomato;
-}
-.hero-title {
-    position: absolute;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
-    background-color:  #2F303A;
-}
-
-h1 {
-    position: absolute;
-    width: 696px;
-    height: 120px;
-    margin-left: 452px;
-    margin-top: 200px;
-    margin-bottom: 0px;
-     font-weight: 900;
-    font-size: 44px;
-    line-height: 1,36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 32px;
-    position: absolute;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1,875;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    margin-left: 692px;
-    margin-top: 350px;
-    text-decoration: none;
-    color: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    background: #2196F3;
-    border-radius: 4px
-        
-}
-.btn:hover, .btn:focus {
-    background: #188CE8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
-.featurs li {
-    display: inline;
-    position: absolute;
-    width: 1170px;
-    height: 98px;
-    left: 215px;
-    top: 774px;
-}
-main {
-    
 }
