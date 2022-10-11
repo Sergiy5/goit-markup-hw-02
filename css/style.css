@@ -1,11 +1,10 @@
-
 body {
     font-family: 'Roboto', 'Raleway';
-    background-color: ##F5F5F5;
+    background-color: #F5F5F5;
     color: #000000
 }
 
-.logo{
+.logo {
     position: absolute;
     width: 145px;
     height: 31px;
@@ -20,6 +19,7 @@ body {
     text-decoration: none;
     color: #000000;
 }
-.half-logo{
+
+.half-logo {
     color: #2196F3;
 }
