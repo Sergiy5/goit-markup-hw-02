@@ -257,7 +257,7 @@ body {
 .btn {
     
 }
-.btn:hover, .btn:focus{
+.filter-everyone:hover, .filter-everyone:focus{
     color: #FFFFFF;
     background-color: #2196F3;
 }
