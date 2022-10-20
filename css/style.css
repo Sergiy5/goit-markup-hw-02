@@ -196,14 +196,6 @@ body {
     margin-left: 221.5px;
 }
 .logo-footer {
-    padding: 0;
-    margin: 0;
-    margin-top: 55px;
-    margin-left: 221.5px;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -217,15 +209,9 @@ body {
 }
 
 .foter-list {
-    padding: 0;
     margin: 0;
-    margin-top: 106px;
-    margin-left: 221.5px;
+    padding: 0;
     list-style: none;
-    width: 231px;
-    height: 81px;
-    left: 215px;
-    top: 2205px;
 }
 .footer-address,
 .footer-mail,
