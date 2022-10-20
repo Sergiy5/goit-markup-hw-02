@@ -1,15 +1,16 @@
 /*Кастомні змінні*/
 :root {
     --primary-text-color: #212121;
-    --second-color: 
+    --second-color: #757575;
     --title-text-color: #000000;
     --accent-color: #2196F3;
+    --background-color: #F5F5F5;
 }
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
-    background-color: #F5F5F5;
-    color: #212121;
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
     letter-spacing: 0.03em;
 }
 .link {
@@ -21,10 +22,6 @@ body {
 /*Logo*/
 
 .logo {
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -71,7 +68,7 @@ body {
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--second-color)
 }
 
 
@@ -114,7 +111,7 @@ body {
     margin-top: 350px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    background: #2196F3;
+    background: var(--accent-color);
     color: #FFFFFF;
 }
 
@@ -143,13 +140,13 @@ body {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .featurs-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    color: #757575; 
+    color: var(--second-color); 
 }
 
 /*Employment*/
@@ -167,14 +164,6 @@ body {
 
 /*About team*/
 
-/*.section-about {
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1446px;
-    background: #F5F4FA;
-}
-*/
 .about-title {
     font-weight: 700;
     font-size: 36px;
@@ -190,7 +179,7 @@ body {
     line-height: 1.18;
 }
 .about-text {
-    color: #757575;
+    color: var(--second-color);
 }
 
 /*Footer*/
@@ -262,7 +251,7 @@ body {
 .filter-btn:focus {
     cursor: pointer;
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: var(--accent-color);
 }
 
    /*Projects*/
@@ -277,5 +266,5 @@ body {
 .project-text {
     font-size: 16px;
     line-height: calc(30/16);
-    color: #757575;
+    color: var(--second-color);
 }
