@@ -45,6 +45,7 @@ body {
 }
 
 .nav-list a {
+    text-decoration: none;
     font-family: inherit;
     font-weight: 500;
     font-size: 14px;
@@ -53,17 +54,17 @@ body {
 }
 .nav-list li{
     display: inline;
+    
 }
-.nav-list .link-id:hover,
-.nav-list .link-id:focus, 
-.nav-mail:hover,
-.nav-mail:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: var(--accent-color);
 }
 
 /*Contacts*/
 
-.nav-mail, .nav-phone {
+.mail, .phone {
+    text-decoration: none;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -251,13 +252,15 @@ body {
     color: #FFFFFF;
 }
 
-              /*PORTFOLIO*/
+ /*PORTFOLIO*/
 
 /*Buttons portfolio*/
 .btn {
     
 }
-.filter-everyone:hover, .filter-everyone:focus{
+.filter-btn:hover, 
+.filter-btn:focus {
+    cursor: pointer;
     color: #FFFFFF;
     background-color: #2196F3;
 }
