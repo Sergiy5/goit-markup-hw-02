@@ -133,13 +133,14 @@ nav {
 }
 .hero-title {
     display: inline-block;
-    margin: 200px 452px 0 452px;
+    margin: 0;
+    margin-top: 200px;
     max-width: 696px;
     padding: 0;
+    text-align: center;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.35;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff
@@ -154,12 +155,15 @@ nav {
     text-align: center;
     text-decoration: none;
     letter-spacing: 0.06em;
-    margin-left: 692px;
+    justify-content: center;
     margin-top: 30px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background: var(--accent-color);
     color: #FFFFFF;
+}
+.main-btn:active {
+    visibility: hidden;
 }
 
 /*Featurs*/
@@ -184,11 +188,10 @@ nav {
     width: 1170px;
     padding: 0;
     height: 98px;
-    left: 215px;
-    top: 774px;
 }
 .featurs-list {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
     
@@ -223,11 +226,12 @@ nav {
     outline: 2px solid tomato;
 }
 
-.li-plan,
+/*.li-plan,
 .li-punctuality,
 .li-tech {
     margin-left: 27px;
-}
+}*/
+
 /*Employment*/
 
 .employment-title {
