@@ -19,9 +19,21 @@ body {
 .list {
     list-style: none;
 }
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+nav {
+    display: inline-block;
+}
+
 /*Logo*/
 
 .logo {
+    margin-top: 24px;
+    margin-left: 215px; 
+    display: inline-block;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -35,10 +47,15 @@ body {
 }
 
 /*Navigation*/
-
+.nav-list, li{
+    display: inline-block;
+    
+}
 .nav-list{
     margin: 0;
     padding: 0;
+    margin-top: 32px;
+    margin-left: 93px;
 }
 
 .nav-list a {
@@ -49,20 +66,17 @@ body {
     line-height: 1,14;
     color: inherit;  
 }
-.nav-list li{
-    display: inline;
-    
-}
+
 .nav-link:hover,
 .nav-link:focus {
     color: var(--accent-color);
 }
 
 /*Contacts*/
-
-.mail, .phone {
+ 
+.mail {
+    display: inline-block;
     text-decoration: none;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -70,7 +84,12 @@ body {
     letter-spacing: 0.02em;
     color: var(--second-color)
 }
-
+address {
+    display: inline-block;
+    margin: 0;
+    margin-top: 32px;
+    margin-left: 344px;
+}
 
 /*HERO*/
 
@@ -82,14 +101,11 @@ body {
     background: #2F303A;
     
 }
-.hero {
-    margin: 0;
+.hero-title {
+    display: inline-block;
+    margin: 200px 452px 0 452px;
+    max-width: 696px;
     padding: 0;
-    margin-left: 452px;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.35;
@@ -99,6 +115,7 @@ body {
     color: #ffffff
 }
 .main-btn {
+    display: inline-block;
     padding: 10px 32px;
     font-weight: 700;
     font-size: 16px;
@@ -108,7 +125,7 @@ body {
     text-decoration: none;
     letter-spacing: 0.06em;
     margin-left: 692px;
-    margin-top: 350px;
+    margin-top: 30px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background: var(--accent-color);
@@ -191,11 +208,13 @@ body {
     top: 2094px;
     background: #2F303A;
 }
-.box-logo-footer {
+
+/*LOGO*/
+
+.logo-footer {
     margin-top: 55px;
     margin-left: 221.5px;
-}
-.logo-footer {
+    display: inline-block;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -209,13 +228,14 @@ body {
 }
 
 .foter-list {
+    display: inline-block;
     margin: 0;
     padding: 0;
     list-style: none;
+    margin-top: 20px;
+    margin-left: 221.5px;
 }
-.footer-address,
-.footer-mail,
-.footer-tel{
+.footer-link {
     font-family: inherit;
     font-style: normal;
     font-size: 14px;
@@ -223,8 +243,14 @@ body {
     letter-spacing: inherit;
     color: rgba(255, 255, 255, 0.6);
 }
-.footer-address {
+.address {
+    margin: 0;
     color: #FFFFFF;
+    outline: 1px solid tomato;
+}
+.mail, .tel {
+    display: inline-block;
+    margin-top: 9px;
 }
 
  /*PORTFOLIO*/
