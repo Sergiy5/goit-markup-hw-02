@@ -18,18 +18,19 @@
     <title>Головна</title>
   </head>
   <body>
-    <div class="main-body">
+    <div class="body">
+      
       <!--Header-->
 
-      <header>
-        <div class="top-line">
-          <nav>
+            <header class="top-line">
+        
             <a href="./index.html" class="logo">
               <span class="half-logo">Web</span>Studio</a
             >
 
             <!--Navigation-->
 
+          <nav>
             <ul class="nav-list list">
               <li><a class="nav-link studio" href="./index.html">Студія</a></li>
               
@@ -41,17 +42,16 @@
               <li><a class="nav-link id" href="#contacts">Контакти</a></li>
             </ul>
           </nav>
-          <address>
+          <div class="contact">
             <a class="nav-link mail" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
             <a class="nav-link tel" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
-          </address>
-        </div>
+          </div>    
       </header>
-
+    
       <!--Hero-->
 
       <section class="section-hero">
@@ -62,47 +62,50 @@
       <!--Main content-->
 
       <main>
+
         <!--Featurs-->
 
-        <h2 class="title-hidden visually-hidden">Особливості</h2>
+      <div class="container"> 
+         <h2 class="title-hidden visually-hidden">Особливості</h2>
         <section class="section-featurs">
-          <div class="container">
             <ul class="featurs-list list">
-              <li>
-                <h3 class="featurs-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                <p class="featurs-text">
-                  Значимість цих проблем настільки очевидна, що реалізація
-                  планових завдань.
-                </p>
-              </li>
-              <li>
-                <h3 class="featurs-title">ПЛАНУВАННЯ</h3>
-                <p class="featurs-text">
-                  Так само консультація з широким активом значною мірою
-                  зумовлює.
-                </p>
-              </li>
-              <li>
-                <h3 class="featurs-title">ПУНКТУАЛЬНІСТЬ</h3>
-                <p class="featurs-text">
-                  Завдання організації, особливо рамки і місце навчання кадрів
-                  тягне у себе.
-                </p>
-              </li>
-              <li>
+               <li class="li-attention">
                 <h3 class="featurs-title">УВАГА ДО ДЕТАЛЕЙ</h3>
                 <p class="featurs-text">
                   Ідейні міркування, і навіть початок повсякденної роботи з
                   формування позиції.
                 </p>
               </li>
+              <li class="li-punctuality">
+                <h3 class="featurs-title">ПУНКТУАЛЬНІСТЬ</h3>
+                <p class="featurs-text">
+                  Завдання організації, особливо рамки і місце навчання кадрів
+                  тягне у себе.
+                </p>
+              </li>
+              <li class="li-plan">
+                <h3 class="featurs-title">ПЛАНУВАННЯ</h3>
+                <p class="featurs-text">
+                  Так само консультація з широким активом значною мірою
+                  зумовлює.
+                </p>
+              </li>
+             <li class="li-tech">
+                <h3 class="featurs-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                <p class="featurs-text">
+                  Значимість цих проблем настільки очевидна, що реалізація
+                  планових завдань.
+                </p>
+              </li>
             </ul>
-          </div>
-        </section>
+          </section>
+      </div>
+
 
         <!--Employment type-->
 
-        <section class="section-employment">
+        <div class="container">
+          <section class="section-employment">
           <h2 class="employment-title">Чим ми займаємося</h2>
           <ul class="employment-list list">
             <li>
@@ -124,7 +127,12 @@
             </li>
           </ul>
         </section>
+      </div>
+
+
         <!--About team-->
+
+      <div class="container">
         <section class="section-about">
           <h2 class="about-title">Наша команда</h2>
           <ul class="about-list">
@@ -167,6 +175,8 @@
             </li>
           </ul>
         </section>
+      </div>
+        
       </main>
       <!--Footer-->
       <footer>
@@ -195,7 +205,7 @@
                 >
               </li>
             </ul>
-          </address></div>
+          </address>
         </div>
       </footer>
     </div>

@@ -23,10 +23,25 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
-
-nav {
-    display: inline-block;
+h3, p {
+    margin: 0;
 }
+
+/*START*/
+.body {
+    position: relative;
+    width: 1600px;
+    height: 2346px;
+    background: #FFFFFF;
+}
+.top-line {
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+
 
 /*Logo*/
 
@@ -47,15 +62,19 @@ nav {
 }
 
 /*Navigation*/
+
+nav {
+    display: inline-block;
+    margin-top: 32px;
+    margin-left: 93px;
+}
 .nav-list, li{
     display: inline-block;
-    
 }
 .nav-list{
     margin: 0;
     padding: 0;
-    margin-top: 32px;
-    margin-left: 93px;
+    
 }
 
 .nav-list a {
@@ -71,10 +90,21 @@ nav {
 .nav-link:focus {
     color: var(--accent-color);
 }
+.portfolio, .id {
+    margin-left: 50px;
+}
+/*.nav-list .portfolio, .studio: {
+    color: var(--accent-color);
+}*/
 
 /*Contacts*/
- 
-.mail {
+
+ .contact {
+    display: inline-block;
+    margin-top: 32px;
+    margin-left: 344px;
+}
+.mail, .tel {
     display: inline-block;
     text-decoration: none;
     font-style: normal;
@@ -82,15 +112,15 @@ nav {
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
-    color: var(--second-color)
+    color: var(--second-color);
+    
 }
-address {
-    display: inline-block;
+.contact a {
     margin: 0;
-    margin-top: 32px;
-    margin-left: 344px;
 }
-
+.contact .tel {
+    margin-left: 50px;
+}
 /*HERO*/
 
 .section-hero{
@@ -133,6 +163,7 @@ address {
 }
 
 /*Featurs*/
+
 .title-hidden, 
 .visually-hidden {
     position: absolute;
@@ -147,25 +178,56 @@ address {
     overflow: hidden;
 }
 .section-featurs {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 94px;
+    width: 1170px;
+    padding: 0;
+    height: 98px;
+    left: 215px;
+    top: 774px;
+}
+.featurs-list {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
     
 }
-.featurs-list li {
-    list-style: none;
- }
+.li-tech, .li-attention {
+    width: 270px;
+    height: 98px;
+    outline: 2px solid tomato;
+
+}
+.li-plan, .li-punctuality {
+    width: 270px;
+    height: 74px;
+    vertical-align: top;
+    outline: 2px solid tomato;
+}
+
 .featurs-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--primary-text-color);
+    outline: 2px solid tomato;
 }
 .featurs-text {
+    margin-top: 10px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    color: var(--second-color); 
+    color: var(--second-color);
+    outline: 2px solid tomato;
 }
 
+.li-plan,
+.li-punctuality,
+.li-tech {
+    margin-left: 27px;
+}
 /*Employment*/
 
 .employment-title {
