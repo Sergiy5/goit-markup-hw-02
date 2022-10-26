@@ -124,38 +124,45 @@ nav {
 /*HERO*/
 
 .section-hero{
+    display: inline-block;
     width: 1600px;
     height: 600px;
     left: 0px;
     top: 80px;
+   
     background: #2F303A;
     
 }
 .hero-title {
-    display: inline-block;
     margin: 0;
     margin-top: 200px;
     max-width: 696px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
-    text-align: center;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.35;
     letter-spacing: 0.06em;
+    text-align: center;
     text-transform: uppercase;
     color: #ffffff
 }
 .main-btn {
-    display: inline-block;
-    padding: 10px 32px;
+    display: flex;
+    justify-content: center;
+    width: 216px;
+    height: 50px;
+    padding: 10px 31px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1,87;
+    text-decoration: none;
     align-items: center;
     text-align: center;
-    text-decoration: none;
     letter-spacing: 0.06em;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -163,8 +170,9 @@ nav {
     color: #FFFFFF;
 }
 .main-btn:active {
-    visibility: hidden;
+    background: #188CE8;
 }
+    
 
 /*Featurs*/
 
@@ -185,26 +193,28 @@ nav {
     margin-left: auto;
     margin-right: auto;
     margin-top: 94px;
-    width: 1170px;
+    width: 1171px;
     padding: 0;
     height: 98px;
 }
 .featurs-list {
-    display: flex;
-    justify-content: space-between;
+    font-size: 0px;
     margin: 0;
     padding: 0;
     
 }
-.li-tech, .li-attention {
-    width: 270px;
-    height: 98px;
-    outline: 2px solid tomato;
-
+.li-tech,
+.li-plan,
+.li-punctuality {
+    margin-left: 30px;
 }
+
+.li-tech, .li-attention,
 .li-plan, .li-punctuality {
+    display: inline-block;
     width: 270px;
-    height: 74px;
+    height: auto;
+    font-size: 1rem;
     vertical-align: top;
     outline: 2px solid tomato;
 }
