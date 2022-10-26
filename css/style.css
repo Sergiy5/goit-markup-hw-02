@@ -13,6 +13,12 @@ body {
     color: var(--primary-text-color);
     letter-spacing: 0.03em;
 }
+.body {
+    width: 1600px;
+    height: auto;
+    background: #FFFFFF;
+    
+}
 .link {
     text-decoration: none;
 }
@@ -68,7 +74,7 @@ nav {
     margin-top: 32px;
     margin-left: 93px;
 }
-.nav-list, li{
+.nav-list > li{
     display: inline-block;
 }
 .nav-list{
@@ -125,6 +131,7 @@ nav {
 
 .section-hero{
     display: inline-block;
+    text-align: center;
     width: 1600px;
     height: 600px;
     left: 0px;
@@ -149,17 +156,11 @@ nav {
     color: #ffffff
 }
 .main-btn {
-    display: flex;
-    justify-content: center;
-    width: 216px;
-    height: 50px;
-    padding: 10px 31px;
+    display: inline-block;
+    padding: 10px 32px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1,87;
-    text-decoration: none;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     margin-left: auto;
     margin-right: auto;
@@ -198,25 +199,18 @@ nav {
     height: 98px;
 }
 .featurs-list {
-    font-size: 0px;
+    display: flex;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
     
 }
-.li-tech,
-.li-plan,
-.li-punctuality {
-    margin-left: 30px;
-}
 
 .li-tech, .li-attention,
 .li-plan, .li-punctuality {
-    display: inline-block;
     width: 270px;
     height: auto;
-    font-size: 1rem;
     vertical-align: top;
-    outline: 2px solid tomato;
 }
 
 .featurs-title {
@@ -225,7 +219,6 @@ nav {
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--primary-text-color);
-    outline: 2px solid tomato;
 }
 .featurs-text {
     margin-top: 10px;
@@ -233,46 +226,82 @@ nav {
     font-size: 14px;
     line-height: 1.7;
     color: var(--second-color);
-    outline: 2px solid tomato;
 }
-
-/*.li-plan,
-.li-punctuality,
-.li-tech {
-    margin-left: 27px;
-}*/
 
 /*Employment*/
 
+.section-employment {
+    margin-top: 94px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 1170px;
+    height: 386px;
+}
 .employment-title {
+    margin: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
 }
+.employment-list {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
 .employment-list li {
-    list-style: none;
-    display: inline;
+    margin-top: 50px;
 }
 
 /*About team*/
-
+.section-about {
+    margin-top: 94px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    height: 648px;
+    text-align: center;
+    background: #F5F4FA;
+}
 .about-title {
+    display: inline-block;
+    margin: 0;
+    margin-top: 94px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1,16;
     text-align: center;
 }
-.about-list li {
-    list-style: none;
+.about-list {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+    height: 368px;
+    display: flex;
+    justify-content: space-between;
+    
 }
-.title-name {
+.about-name {
+    margin-top: 30px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
 }
 .about-text {
+    margin-top: 10px;
     color: var(--second-color);
+}
+.card {
+    width: 270px;
+    height: 368px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 /*Footer*/
@@ -322,7 +351,6 @@ nav {
 .address {
     margin: 0;
     color: #FFFFFF;
-    outline: 1px solid tomato;
 }
 .mail, .tel {
     display: inline-block;
