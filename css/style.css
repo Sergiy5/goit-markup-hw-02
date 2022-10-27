@@ -13,12 +13,7 @@ body {
     color: var(--primary-text-color);
     letter-spacing: 0.03em;
 }
-.body {
-    width: 1600px;
-    height: auto;
-    background: #FFFFFF;
-    
-}
+
 .link {
     text-decoration: none;
 }
@@ -29,7 +24,7 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
-h3, p {
+h1, h2, h3, p {
     margin: 0;
 }
 
@@ -40,21 +35,18 @@ h3, p {
     height: 2346px;
     background: #FFFFFF;
 }
-.top-line {
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 215px;
     width: 1600px;
     height: 80px;
-    left: 0px;
-    top: 0px;
 }
-
-
 
 /*Logo*/
 
 .logo {
-    margin-top: 24px;
-    margin-left: 215px; 
-    display: inline-block;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -68,19 +60,19 @@ h3, p {
 }
 
 /*Navigation*/
-
 nav {
-    display: inline-block;
-    margin-top: 32px;
-    margin-left: 93px;
+    margin-left: -218px;
 }
-.nav-list > li{
-    display: inline-block;
-}
-.nav-list{
+.nav-list {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 93px;
     margin: 0;
     padding: 0;
-    
+}
+.nav-list .nav-link:not(:last-child) {
+    margin-right: 50px;
 }
 
 .nav-list a {
@@ -92,26 +84,21 @@ nav {
     color: inherit;  
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.link:hover,
+.link:focus {
     color: var(--accent-color);
 }
-.portfolio, .id {
-    margin-left: 50px;
-}
-/*.nav-list .portfolio, .studio: {
-    color: var(--accent-color);
-}*/
 
 /*Contacts*/
 
- .contact {
-    display: inline-block;
-    margin-top: 32px;
-    margin-left: 344px;
+ .contacts {
+    display: flex;
+    justify-content: space-between;
+}
+.contacts .link:not(:last-child) {
+    margin-right: 50px;
 }
 .mail, .tel {
-    display: inline-block;
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -121,12 +108,10 @@ nav {
     color: var(--second-color);
     
 }
-.contact a {
+.contacts a {
     margin: 0;
 }
-.contact .tel {
-    margin-left: 50px;
-}
+
 /*HERO*/
 
 .section-hero{
@@ -156,6 +141,7 @@ nav {
     color: #ffffff
 }
 .main-btn {
+    box-sizing: border-box;
     display: inline-block;
     padding: 10px 32px;
     font-weight: 700;
@@ -256,7 +242,9 @@ nav {
 }
 
 /*About team*/
+
 .section-about {
+    display: inline-block;
     margin-top: 94px;
     margin-left: auto;
     margin-right: auto;
@@ -272,18 +260,16 @@ nav {
     font-weight: 700;
     font-size: 36px;
     line-height: 1,16;
-    text-align: center;
 }
 .about-list {
-    margin: 0;
-    padding: 0;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1170px;
-    height: 368px;
     display: flex;
     justify-content: space-between;
+    flex-basis: calc((100% - 90px) / 4);
+    margin: 50px auto 0 auto;
+    padding: 0;
+    width: 1170px;
+    height: 368px;
+    
     
 }
 .about-name {
