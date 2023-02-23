@@ -19,6 +19,7 @@
   </head>
   <body>
     <div class="body">
+
     <!--Header-->
 
     <header class="header">
@@ -34,7 +35,7 @@
               <li class="nav-link"><a class="link studio" href="./index.html">Студія</a></li>
               
               <li class="nav-link">
-                <a class="link portfolio" href="./portfolio.html"
+                <a class="link current portfolio" href="./portfolio.html"
                   >Портфоліо</a
                 >
               </li>
@@ -42,7 +43,7 @@
             </ul>
           </nav>
           <div class="contacts">
-            <a class="link mail" href="mailto:info@devstudio.com"
+            <a class="link current mail" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
             <a class="link tel" href="tel:+380961111111"
@@ -54,24 +55,24 @@
     <!--Main content-->
 
     <main>
+
       <!--Filters-->
 
-      <div>
+      <div class="container">
+        <div class="main">
         <ul class="filter-list list">
-          <li>
-            <button class="filter-btn everyone" type="button">Усі</button>
+          <li class="filter-li">
+            <button class="filter-btn all" type="button">Усі</button>
           </li>
-          <li>
+          <li class="filter-li">
             <button class="filter-btn web" type="button">Веб-сайти</button>
           </li>
-          <li><button class="filter-btn app" type="button">Додатки</button></li>
-          <li>
-            <button class="filter-btn marketing" type="button">
-              Маркетинг
-            </button>
+          <li class="filter-li"><button class="filter-btn app" type="button">Додатки</button></li>
+          <li class="filter-li"><button class="filter-btn design" type="button">Дизайн</button></li>
+          <li class="filter-li">
+            <button class="filter-btn marketing" type="button">Маркетинг</button>
           </li>
         </ul>
-      </div>
 
       <!--Projects-->
 
@@ -140,40 +141,43 @@
           </a>
         </li>
       </ul>
+      </div>
+      </div>
     </main>
+    
 
     <!--Footer-->
 
     <footer>
-      <div class="footer">
-        <div class="container">
-          <a href="./index.html" class="logo-footer">
-            <span class="half-logo">Web</span>Studio</a
-          >
+        <div class="footer">
+          <div class="container">       
+            <a href="./index.html" class="logo-footer">
+            <span class="half-logo">Web</span>Studio</a>
 
           <!--Address-->
 
           <address id="contacts">
             <ul class="foter-list">
-              <li>
-                <p class="footer-link address">
+              <li class="footer-li">
+                <p class="address">
                   м. Київ, пр-т Лесі Українки, 26
                 </p>
               </li>
-              <li>
-                <a class="footer-link mail" href="mailto:info@devstudio.com">
+              <li class="footer-li">
+                <a class="footer-mail" href="mailto:info@devstudio.com">
                   info@devstudio.com</a
                 >
               </li>
-              <li>
-                <a class="footer-link tel" href="tel:+380961111111"
+              <li class="footer-li">
+                <a class="footer-tel" href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-      </div>
-    </footer>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
